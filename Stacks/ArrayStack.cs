@@ -12,18 +12,6 @@ using System;
 
 namespace ADT{
 
-/** Exception for empty stack */
-class EmptyStackException : Exception{
-	public EmptyStackException(){}
-	public EmptyStackException(string message) : base(message){}
-}
-
-/** Exception for full stack */
-class FullStackException : Exception{
-	public FullStackException(){}
-	public FullStackException(string message) : base(message){}
-}
-
 class ArrayStack : Stack {
 	
 	public int Count;

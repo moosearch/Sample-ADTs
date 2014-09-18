@@ -13,12 +13,6 @@ using System;
 
 namespace ADT{
 
-/** Exception for empty stack */
-class EmptyStackException : Exception{
-	public EmptyStackException(){}
-	public EmptyStackException(string message) : base(message){}
-}
-
 /** Linked List Stack */
 class LLStack : Stack{
 	
